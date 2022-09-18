@@ -1,13 +1,13 @@
 const { promiseTheaterIXX, promiseTheaterVGC } = require("./external.js");
 
 // TODO: Buat fungsi promiseOutput sesuai ketentuan readme
-const promiseOutput = (hasilSetelahMenonton) => {
+const promiseOutput =async(hasil)  => {
   return new Promise((resolve, reject) => {
-    if (hasil == 'tidak marah'){
+    if (hasil == 'marah'){
       resolve('2')
     } else {
       reject('4')
-    }
+    };
   });
 };
 
