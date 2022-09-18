@@ -6,7 +6,7 @@ const promiseOutput = (hasilSetelahMenonton) => {
     if (hasil == 'tidak marah'){
       resolve('2')
     } else {
-      reject('2')
+      reject('4')
     }
   });
 };
